@@ -12007,23 +12007,23 @@
         },
         {
             "name": "m6web/redis-mock",
-            "version": "v5.0.0",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/M6Web/RedisMock.git",
-                "reference": "1b7a1bcbb63d636b003643e88f785615e0a316bd"
+                "url": "https://github.com/BedrockStreaming/RedisMock.git",
+                "reference": "958abce71d8f2bf6a5ce9ccfde0168408ee105cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/M6Web/RedisMock/zipball/1b7a1bcbb63d636b003643e88f785615e0a316bd",
-                "reference": "1b7a1bcbb63d636b003643e88f785615e0a316bd",
+                "url": "https://api.github.com/repos/BedrockStreaming/RedisMock/zipball/958abce71d8f2bf6a5ce9ccfde0168408ee105cb",
+                "reference": "958abce71d8f2bf6a5ce9ccfde0168408ee105cb",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1.0"
             },
             "require-dev": {
-                "atoum/atoum": "master-dev",
+                "atoum/atoum": "~3.4||~4.0",
                 "predis/predis": "~1.1"
             },
             "type": "library",
@@ -12049,10 +12049,10 @@
                 "redis"
             ],
             "support": {
-                "issues": "https://github.com/M6Web/RedisMock/issues",
-                "source": "https://github.com/M6Web/RedisMock/tree/master"
+                "issues": "https://github.com/BedrockStreaming/RedisMock/issues",
+                "source": "https://github.com/BedrockStreaming/RedisMock/tree/v5.2.0"
             },
-            "time": "2020-01-08T08:03:01+00:00"
+            "time": "2022-01-24T09:32:59+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -12731,5 +12731,5 @@
     "platform-overrides": {
         "php": "7.2.5"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

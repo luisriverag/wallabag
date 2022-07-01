@@ -12007,23 +12007,23 @@
         },
         {
             "name": "m6web/redis-mock",
-            "version": "v5.0.0",
+            "version": "v5.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/M6Web/RedisMock.git",
-                "reference": "1b7a1bcbb63d636b003643e88f785615e0a316bd"
+                "url": "https://github.com/BedrockStreaming/RedisMock.git",
+                "reference": "e126231c0130ff2e83d53dbc0c305a8eed20372e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/M6Web/RedisMock/zipball/1b7a1bcbb63d636b003643e88f785615e0a316bd",
-                "reference": "1b7a1bcbb63d636b003643e88f785615e0a316bd",
+                "url": "https://api.github.com/repos/BedrockStreaming/RedisMock/zipball/e126231c0130ff2e83d53dbc0c305a8eed20372e",
+                "reference": "e126231c0130ff2e83d53dbc0c305a8eed20372e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1.0"
             },
             "require-dev": {
-                "atoum/atoum": "master-dev",
+                "atoum/atoum": "~3.4||~4.0",
                 "predis/predis": "~1.1"
             },
             "type": "library",
@@ -12049,10 +12049,10 @@
                 "redis"
             ],
             "support": {
-                "issues": "https://github.com/M6Web/RedisMock/issues",
-                "source": "https://github.com/M6Web/RedisMock/tree/master"
+                "issues": "https://github.com/BedrockStreaming/RedisMock/issues",
+                "source": "https://github.com/BedrockStreaming/RedisMock/tree/v5.3.0"
             },
-            "time": "2020-01-08T08:03:01+00:00"
+            "time": "2022-06-14T17:39:03+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -12731,5 +12731,5 @@
     "platform-overrides": {
         "php": "7.2.5"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
